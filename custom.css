@@ -1,6 +1,7 @@
-body {
-  padding-top: 54px;
-}
+/*body {*/
+/*  padding-top: 54px;*/
+/*}*/
+
 
 @media (min-width: 992px) {
   body {
@@ -9,8 +10,9 @@ body {
 }
 
 .carousel-item {
-  height: 65vh;
+  height: 100vh;
   min-height: 300px;
+  width:100%;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
