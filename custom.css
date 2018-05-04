@@ -1,0 +1,104 @@
+ html,
+ body {
+  width: 100%;
+  height: 100%;
+
+ }
+
+ .text-vertical-center {
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+  color: black;
+ }
+
+
+ #landing {
+  display: table;
+  width: 100%;
+  min-height: 100%;
+  height: 100%;
+  background: linear-gradient( rgba(78, 84, 200, 0.5),
+  rgba(143, 148, 251, 0.5)),
+  url('img/balloon-3.jpg') no-repeat center fixed;
+  background-size: cover;
+  text-align: center;
+ }
+
+
+
+ .jumbotron,
+ .row {
+  margin: 40px 0px;
+ }
+
+
+
+
+
+ .carousel-control-next-icon {
+  background-color: #56CCF2;
+ }
+
+ .carousel-control-prev-icon {
+  background-color: #56CCF2;
+ }
+
+ @media(min-width: 768px) {
+  h1 {
+   font-size: 70px
+  }
+  h2 {
+   font-size: 35px
+  }
+  .card-columns {
+   column-count: 2;
+  }
+ }
+
+ 
+ @media(max-width: 768px) {
+  .carousel-indicators {
+   bottom: -500px;
+  }
+
+ }
+
+ @media(min-width: 1263px) {
+  .carousel-indicators {
+   bottom: -500px;
+  }
+
+  .card-columns {
+   column-count: 3;
+  }
+ }
+
+
+
+
+
+
+
+ /* med+ */
+
+ @media(min-width: 992px) {
+  h1 {
+   font-size: 90px
+  }
+  h2 {
+   font-size: 45px
+  }
+ }
+
+ /* lag+ */
+
+ @media(min-width: 1200px) {
+  h1 {
+   font-size: 110px
+  }
+  h2 {
+   font-size: 55px
+  }
+ }
+ 
