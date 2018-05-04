@@ -48,5 +48,28 @@ border-bottom: 52px solid transparent;
 }
   
 
+<<<<<<< HEAD
   
+=======
+/*.topnav {*/
+/*    background-color: #333;*/
+/*}*/
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    /*float: left;*/
+    /*display: block;*/
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+    border-bottom: 3px solid red;
+}
+
+>>>>>>> 1595f5e7a0377361a8f267c3b5f3ea0360ea4651
 
