@@ -67,6 +67,7 @@ body {
  h2 {
   font-size: 45px
  }
+ 
 }
 
 
@@ -110,7 +111,9 @@ body {
  border-bottom: 3px solid red;
 }
 
-
+#search-bar {
+    display: inline-block;
+}
 
 
 
