@@ -110,6 +110,11 @@ body {
  border-bottom: 3px solid red;
 }
 
+.form
+{
+    display: inline-block;
+    text-align: center;
+}
 
 
 
