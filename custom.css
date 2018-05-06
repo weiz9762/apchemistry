@@ -67,6 +67,7 @@ body {
  h2 {
   font-size: 45px
  }
+ 
 }
 
 
@@ -110,10 +111,8 @@ body {
  border-bottom: 3px solid red;
 }
 
-.form
-{
+#search-bar {
     display: inline-block;
-    text-align: center;
 }
 
 
