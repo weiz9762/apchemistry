@@ -23,9 +23,7 @@
 </head>
 
 
-
-
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body data-spy="scroll" data-target=".navbar" data-offset="60">
 
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light text-align: center; fixed-top">
@@ -41,18 +39,35 @@
           <!--<li class="nav-item active">-->
           <!--  <a class="nav-link" href="#home">Home</a>-->
           <!--</li>-->
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#sig-fig">Significant Digits</a>
-          </li>
+          
+          
+          <!--<li class="nav-item">-->
+          <!--  <a class="nav-link js-scroll-trigger" href="#sig-fig">Significant Digits</a>-->
+          
+          
+            
+      <li class="nav-item dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown">
+        <span class="caret"></span>Chemistry Preperation</a>
+        <ul class="dropdown-menu">
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#sig-fig">Significant Digits</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#">Polyatomic Ions</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#">Chemical Bonds</a></li>
+        </ul>
+      </li>
+            
+            
+            
+            
 
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#poly-ion">Polyatomic Ions</a>
+            <a class="nav-link js-scroll-trigger" href="#poly-ion">Blah</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#chem-bonds">Chemical Bonds</a>
+            <a class="nav-link js-scroll-trigger" href="#chem-bonds">Blah</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            <a class="nav-link js-scroll-trigger" href="#contact">Blah</a>
           </li>
 
           <!--Search Bar (commented because it might be deleted)-->
@@ -119,6 +134,67 @@
   </header>
   <br>
 
+
+<!--<div id="sig-fig">-->
+<!--  <h1>Significant Figure</h1>-->
+<!--  <div id="general-rule">-->
+<!--  <h3>General Rules for Determining Significant Figures</h3>-->
+<!--  <ol>-->
+<!--    <li>All nonzero digits are significant.</li>-->
+<!--    <li>Zeros are also significant with two exceptions:</li>-->
+<!--    <ul>-->
+<!--      <li>zeros preceding the decimal point.</li>-->
+<!--      <li>zeros following the decimal point and preceding the first nonzero digit.-->
+<!--</li>-->
+<!--    </ul>-->
+<!--    <li>Terminal zeros preceding the decimal point in amounts greater than one is an ambiguous case.</li>-->
+<!--  </ol>-->
+<!--  </div>-->
+  
+<!--  <div id="without-decimal">-->
+<!--  <h3>Rules for Determining Significant Figures for Numbers Without Decimal Point</h3>-->
+<!--  <ol>-->
+<!--    <li>START counting for sig. figs. On the FIRST non-zero digit.</li>-->
+<!--    <li>STOP counting for sig. figs. On the LAST non-zero digit.</li>-->
+<!--    <li>Non-zero digits are ALWAYS significant</li>-->
+<!--    <li>Zeroes in between two non-zero digits are significant. All other zeroes are insignificant.</li>-->
+<!--  </ol>-->
+  
+  <!--<div class="container">-->
+<!--  <h2>Basic Modal Example</h2>-->
+  <!-- Trigger the modal with a button -->
+<!--  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Example 1</button>-->
+
+  <!-- Modal -->
+<!--  <div class="modal fade" id="myModal" role="dialog">-->
+<!--    <div class="modal-dialog">-->
+    
+      <!-- Modal content-->
+<!--      <div class="modal-content">-->
+<!--        <div class="modal-header">-->
+<!--          <button type="button" class="close" data-dismiss="modal">&times;</button>-->
+<!--          <h4 class="modal-title">Example 1</h4>-->
+<!--        </div>-->
+<!--        <div class="modal-body">-->
+<!--          <p>The first two zeroes in 200500 (four significant digits) are significant because they are between two non-zero digits, and the last two zeroes are insignificant because they are after the last non-zero digit.</p>-->
+<!--          <p>It should be noted that both constants and quantities of real world objects have an infinite number of significant figures. For example if you were to count three oranges, a real world object, the value three would be considered to have an infinite number of significant figures in this context.</p>-->
+<!--        </div>-->
+<!--        <div class="modal-footer">-->
+<!--          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+<!--        </div>-->
+<!--      </div>-->
+      
+<!--    </div>-->
+<!--  </div>-->
+  
+
+<!--  <h2>Example 1</h2>-->
+<!--  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Simple collapsible</button>-->
+<!--  <div id="demo" class="collapse">-->
+<!--    <p>The first two zeroes in 200500 (four significant digits) are significant because they are between two non-zero digits, and the last two zeroes are insignificant because they are after the last non-zero digit.</p>-->
+<!--          <p>It should be noted that both constants and quantities of real world objects have an infinite number of significant figures. For example if you were to count three oranges, a real world object, the value three would be considered to have an infinite number of significant figures in this context.</p>-->
+<!--  </div>-->
+<!--  </div>-->
 
 
 
@@ -392,73 +468,20 @@
 
 
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="carousel slide" data-ride="carousel" id="quote-carousel">
-          <!-- Carousel Slides / Quotes -->
-          <div class="carousel-inner text-center">
-            <!-- Quote 1 -->
-            <div class="item active">
-              <blockquote>
-                <div class="row">
-                  <div class="col-sm-8 col-sm-offset-2">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. !</p>
-                    <small>Someone famous</small>
-                  </div>
-                </div>
-              </blockquote>
-            </div>
-            <!-- Quote 2 -->
-            <div class="item">
-              <blockquote>
-                <div class="row">
-                  <div class="col-sm-8 col-sm-offset-2">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-                    <small>Someone famous</small>
-                  </div>
-                </div>
-              </blockquote>
-            </div>
-            <!-- Quote 3 -->
-            <div class="item">
-              <blockquote>
-                <div class="row">
-                  <div class="col-sm-8 col-sm-offset-2">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. .</p>
-                    <small>Someone famous</small>
-                  </div>
-                </div>
-              </blockquote>
-            </div>
-          </div>
-          <!-- Bottom Carousel Indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="https://s3.amazonaws.com/uifaces/faces/twitter/mantia/128.jpg" alt="">
-            </li>
-            <li data-target="#quote-carousel" data-slide-to="1"><img class="img-responsive" src="https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg" alt="">
-            </li>
-            <li data-target="#quote-carousel" data-slide-to="2"><img class="img-responsive" src="https://s3.amazonaws.com/uifaces/faces/twitter/brad_frost/128.jpg" alt="">
-            </li>
-          </ol>
-
-          <!-- Carousel Buttons Next/Prev -->
-          <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
-          <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
-        </div>
-      </div>
-    </div>
-    <a class="btn btn-primary" href="http://thecodeblock.com/create-a-quote-testimonial-slider-using-bootstrap-carousel"><i class="fa fa-arrow-left"></i> Back to Article</a>
-  </div>
+ 
 
 
   <div id="footer">
     <p><strong>Copyright © 2016 | SHABR</strong></p>
   </div>
 
+
+
+<!--all the below cannot be use unless rewrite-->
+    <!--Bootstrap core JavaScript -->
+    <!--needed for scrollspy-->
+    <script src="startbootstrap-creative-master/vendor/jquery/jquery.min.js"></script>
+    <!--<script src="startbootstrap-creative-master/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>--> <!--this makes dropdown collapse when a item in it is clicked but then the button for the dropdown or collapse wont work-->
 
 
   <!--all the below cannot be use unless rewrite-->
