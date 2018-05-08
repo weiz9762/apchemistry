@@ -196,6 +196,7 @@
 
 
 
+
   <div id="sig-fig">
     <h1>Significant Figure</h1>
     
@@ -289,16 +290,16 @@
     
     <h3>Common Polyatomic Ions</h3><br>
     <ul id="hexGrid">
-      <li class="hex">
+      <li class="hex" id="sig-fig">
         <div class="hexIn">
-          <a class="hexLink" href="#">
-            <img src="https://farm9.staticflickr.com/8461/8048823381_0fbc2d8efb.jpg" alt="" />
-            <h1>This is a title</h1>
-            <p>Some sample text about the article this hexagon leads to</p>
+          <a class="hexLink " href="#" data-toggle="modal" data-target="#sigfig-info">
+            <img src="https://e2f.com/wp-content/uploads/2015/05/Numbers.png" alt="" />
+            <h1>Significant Digits</h1>
+            <p>Description</p>
           </a>
         </div>
       </li>
-      <li class="hex">
+      <li class="hex" id="poly-ion">
         <div class="hexIn">
           <a class="hexLink" href="#">
             <img src="https://farm5.staticflickr.com/4144/5053682635_b348b24698.jpg" alt="" />
@@ -307,7 +308,7 @@
           </a>
         </div>
       </li>
-      <li class="hex">
+      <li class="hex" id="">
         <div class="hexIn">
           <a class="hexLink" href="#">
             <img src="https://farm3.staticflickr.com/2827/10384422264_d9c7299146.jpg" alt="" />
@@ -327,10 +328,11 @@
       </li>
       <li class="hex">
         <div class="hexIn">
-          <a class="hexLink" href="#">
+          <a class="hexLink " href="#" data-toggle="modal" data-target="#sigfit-info">
             <img src="https://farm7.staticflickr.com/6083/6055581292_d94c2d90e3.jpg" alt="" />
             <h1>This is a title</h1>
             <p>Some sample text about the article this hexagon leads to</p> 
+            
           </a>
 
         </div>
@@ -347,6 +349,47 @@
 
 <div id="project">
 <h1>Projects</h1>
+
+
+
+    <div class="modal fade" id="sigfig-info" tabindex="-1" role="dialog" aria-labelledby="sigfig-info" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Significant Digits</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="poly-ion" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
   <div class="container">
     <div class="card-columns">
       <div class="card">
@@ -461,6 +504,7 @@
 
 
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+ 
 
 
 

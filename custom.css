@@ -22,7 +22,7 @@ body {
 /*slider*/
 
 .carousel-item {
- height: 98vh;
+ height: 100vh;
  min-height: 300px;
  background: no-repeat center center scroll;
  -webkit-background-size: cover;
@@ -331,6 +331,11 @@ body {
     }
 }
 
+<<<<<<< HEAD
 /*#nav-left {*/
 /*    vertical-align: right;*/
 /*}*/
+=======
+
+
+>>>>>>> 1ddf5193c7dd6095b32b6bd07910e6b74414e817
