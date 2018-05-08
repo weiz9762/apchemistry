@@ -329,6 +329,7 @@ body {
     }
 }
 
+<<<<<<< HEAD
 @media (max-width: 900px) and (min-width:601px) {
     /* <- 3-2  hexagons per row */
     #hexGrid {
@@ -344,6 +345,11 @@ body {
         /* = width of .hex / 2  to indent even rows */
     }
 }
+
+
+/*#nav-left {*/
+/*    vertical-align: right;*/
+/*}*/
 
 @media (max-width: 600px) {
     /* <- 2-1  hexagons per row */
