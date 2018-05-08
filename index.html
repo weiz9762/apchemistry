@@ -18,16 +18,16 @@
   <link rel="stylesheet" href="custom.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-  <script src="script.js"></script>
-  <script></script>
+  <!--<script src="script.js"></script>-->
 </head>
 
 
 <body data-spy="scroll" data-target=".navbar" data-offset="60">
 
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light text-align: center; fixed-top">
-    <a class="navbar-brand js-scroll-trigger" href="#home"><img src="img/hot-air-balloon-clipart.png" width="30" class="d-inline-block align-top" alt="">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+    <a class="navbar-brand js-scroll-trigger" href="#home"><img src="" width="30" class="d-inline-block align-top" alt="">
     Periodical 2018</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -35,39 +35,35 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <div class="topnav">
+        
         <ul class="navbar-nav mr-auto">
-          <!--<li class="nav-item active">-->
-          <!--  <a class="nav-link" href="#home">Home</a>-->
-          <!--</li>-->
-          
-          
-          <!--<li class="nav-item">-->
-          <!--  <a class="nav-link js-scroll-trigger" href="#sig-fig">Significant Digits</a>-->
-          
-          
-            
-      <li class="nav-item dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown">
+
+
+
+
+          <li class="nav-item dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown">
         <span class="caret"></span>Chemistry Preperation</a>
-        <ul class="dropdown-menu">
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#sig-fig">Significant Digits</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#">Polyatomic Ions</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#">Chemical Bonds</a></li>
-        </ul>
-      </li>
-            
-            
-            
-            
+            <ul class="dropdown-menu">
+              
+              <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#sig-fig">Significant Digits</a></li>
+              <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#poly-ion">Polyatomic Ions</a></li>
+              <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#chem-bond">Chemical Bonds, Lewis Symbols, and the Octet Rule</a></li>
+            </ul>
+          </li>
+
+
+
+
 
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#poly-ion">Blah</a>
+            <a class="nav-link js-scroll-trigger" href="#project">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#chem-bonds">Blah</a>
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Blah</a>
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
           </li>
 
           <!--Search Bar (commented because it might be deleted)-->
@@ -81,6 +77,7 @@
 
         </ul>
       </div>
+    </div>
     </div>
   </nav>
 
@@ -135,72 +132,73 @@
   <br>
 
 
-<!--<div id="sig-fig">-->
-<!--  <h1>Significant Figure</h1>-->
-<!--  <div id="general-rule">-->
-<!--  <h3>General Rules for Determining Significant Figures</h3>-->
-<!--  <ol>-->
-<!--    <li>All nonzero digits are significant.</li>-->
-<!--    <li>Zeros are also significant with two exceptions:</li>-->
-<!--    <ul>-->
-<!--      <li>zeros preceding the decimal point.</li>-->
-<!--      <li>zeros following the decimal point and preceding the first nonzero digit.-->
-<!--</li>-->
-<!--    </ul>-->
-<!--    <li>Terminal zeros preceding the decimal point in amounts greater than one is an ambiguous case.</li>-->
-<!--  </ol>-->
-<!--  </div>-->
-  
-<!--  <div id="without-decimal">-->
-<!--  <h3>Rules for Determining Significant Figures for Numbers Without Decimal Point</h3>-->
-<!--  <ol>-->
-<!--    <li>START counting for sig. figs. On the FIRST non-zero digit.</li>-->
-<!--    <li>STOP counting for sig. figs. On the LAST non-zero digit.</li>-->
-<!--    <li>Non-zero digits are ALWAYS significant</li>-->
-<!--    <li>Zeroes in between two non-zero digits are significant. All other zeroes are insignificant.</li>-->
-<!--  </ol>-->
-  
+  <!--<div id="sig-fig">-->
+  <!--  <h1>Significant Figure</h1>-->
+  <!--  <div id="general-rule">-->
+  <!--  <h3>General Rules for Determining Significant Figures</h3>-->
+  <!--  <ol>-->
+  <!--    <li>All nonzero digits are significant.</li>-->
+  <!--    <li>Zeros are also significant with two exceptions:</li>-->
+  <!--    <ul>-->
+  <!--      <li>zeros preceding the decimal point.</li>-->
+  <!--      <li>zeros following the decimal point and preceding the first nonzero digit.-->
+  <!--</li>-->
+  <!--    </ul>-->
+  <!--    <li>Terminal zeros preceding the decimal point in amounts greater than one is an ambiguous case.</li>-->
+  <!--  </ol>-->
+  <!--  </div>-->
+
+  <!--  <div id="without-decimal">-->
+  <!--  <h3>Rules for Determining Significant Figures for Numbers Without Decimal Point</h3>-->
+  <!--  <ol>-->
+  <!--    <li>START counting for sig. figs. On the FIRST non-zero digit.</li>-->
+  <!--    <li>STOP counting for sig. figs. On the LAST non-zero digit.</li>-->
+  <!--    <li>Non-zero digits are ALWAYS significant</li>-->
+  <!--    <li>Zeroes in between two non-zero digits are significant. All other zeroes are insignificant.</li>-->
+  <!--  </ol>-->
+
   <!--<div class="container">-->
-<!--  <h2>Basic Modal Example</h2>-->
+  <!--  <h2>Basic Modal Example</h2>-->
   <!-- Trigger the modal with a button -->
-<!--  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Example 1</button>-->
+  <!--  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Example 1</button>-->
 
   <!-- Modal -->
-<!--  <div class="modal fade" id="myModal" role="dialog">-->
-<!--    <div class="modal-dialog">-->
-    
-      <!-- Modal content-->
-<!--      <div class="modal-content">-->
-<!--        <div class="modal-header">-->
-<!--          <button type="button" class="close" data-dismiss="modal">&times;</button>-->
-<!--          <h4 class="modal-title">Example 1</h4>-->
-<!--        </div>-->
-<!--        <div class="modal-body">-->
-<!--          <p>The first two zeroes in 200500 (four significant digits) are significant because they are between two non-zero digits, and the last two zeroes are insignificant because they are after the last non-zero digit.</p>-->
-<!--          <p>It should be noted that both constants and quantities of real world objects have an infinite number of significant figures. For example if you were to count three oranges, a real world object, the value three would be considered to have an infinite number of significant figures in this context.</p>-->
-<!--        </div>-->
-<!--        <div class="modal-footer">-->
-<!--          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
-<!--        </div>-->
-<!--      </div>-->
-      
-<!--    </div>-->
-<!--  </div>-->
-  
+  <!--  <div class="modal fade" id="myModal" role="dialog">-->
+  <!--    <div class="modal-dialog">-->
 
-<!--  <h2>Example 1</h2>-->
-<!--  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Simple collapsible</button>-->
-<!--  <div id="demo" class="collapse">-->
-<!--    <p>The first two zeroes in 200500 (four significant digits) are significant because they are between two non-zero digits, and the last two zeroes are insignificant because they are after the last non-zero digit.</p>-->
-<!--          <p>It should be noted that both constants and quantities of real world objects have an infinite number of significant figures. For example if you were to count three oranges, a real world object, the value three would be considered to have an infinite number of significant figures in this context.</p>-->
-<!--  </div>-->
-<!--  </div>-->
+  <!-- Modal content-->
+  <!--      <div class="modal-content">-->
+  <!--        <div class="modal-header">-->
+  <!--          <button type="button" class="close" data-dismiss="modal">&times;</button>-->
+  <!--          <h4 class="modal-title">Example 1</h4>-->
+  <!--        </div>-->
+  <!--        <div class="modal-body">-->
+  <!--          <p>The first two zeroes in 200500 (four significant digits) are significant because they are between two non-zero digits, and the last two zeroes are insignificant because they are after the last non-zero digit.</p>-->
+  <!--          <p>It should be noted that both constants and quantities of real world objects have an infinite number of significant figures. For example if you were to count three oranges, a real world object, the value three would be considered to have an infinite number of significant figures in this context.</p>-->
+  <!--        </div>-->
+  <!--        <div class="modal-footer">-->
+  <!--          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+  <!--        </div>-->
+  <!--      </div>-->
+
+  <!--    </div>-->
+  <!--  </div>-->
+
+
+  <!--  <h2>Example 1</h2>-->
+  <!--  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Simple collapsible</button>-->
+  <!--  <div id="demo" class="collapse">-->
+  <!--    <p>The first two zeroes in 200500 (four significant digits) are significant because they are between two non-zero digits, and the last two zeroes are insignificant because they are after the last non-zero digit.</p>-->
+  <!--          <p>It should be noted that both constants and quantities of real world objects have an infinite number of significant figures. For example if you were to count three oranges, a real world object, the value three would be considered to have an infinite number of significant figures in this context.</p>-->
+  <!--  </div>-->
+  <!--  </div>-->
 
 
 
 
   <div id="sig-fig">
     <h1>Significant Figure</h1>
+    
     <h3>General Rules for Determining Significant Figures</h3>
     <ol>
       <li>All nonzero digits are significant.</li>
@@ -212,55 +210,84 @@
       </ul>
       <li>Terminal zeros preceding the decimal point in amounts greater than one is an ambiguous case.</li>
     </ol>
-    <h3>Rules for Determining Significant Figures for Numbers Without Decimal Point</h3>
+    
+    <h3>Rules for Determining Significant Figures for Numbers WITHOUT Decimal Point</h3>
     <ol>
       <li>START counting for sig. figs. On the FIRST non-zero digit.</li>
       <li>STOP counting for sig. figs. On the LAST non-zero digit.</li>
       <li>Non-zero digits are ALWAYS significant</li>
       <li>Zeroes in between two non-zero digits are significant. All other zeroes are insignificant.</li>
     </ol>
-
-    <!--<div class="container">-->
-    <h2>Basic Modal Example</h2>
-    <!-- Trigger the modal with a button -->
-    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Example 1</button>
-
-    <!-- Modal -->
-    <div class="modal fade" id="myModal" role="dialog">
-      <div class="modal-dialog">
-
-        <!-- Modal content-->
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h4 class="modal-title">Example 1</h4>
-          </div>
-          <div class="modal-body">
-            <p>The first two zeroes in 200500 (four significant digits) are significant because they are between two non-zero digits, and the last two zeroes are insignificant because they are after the last non-zero digit.</p>
-            <p>It should be noted that both constants and quantities of real world objects have an infinite number of significant figures. For example if you were to count three oranges, a real world object, the value three would be considered to have an
-              infinite number of significant figures in this context.</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-
-      </div>
-    </div> This or the one below Wei?
-
-
-    <h2>Example 1</h2>
-    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Simple collapsible</button>
-    <div id="demo" class="collapse">
+    
+    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#example1">Click to see an example</button>
+    <div id="example1" class="collapse">
       <p>The first two zeroes in 200500 (four significant digits) are significant because they are between two non-zero digits, and the last two zeroes are insignificant because they are after the last non-zero digit.</p>
-      <p>It should be noted that both constants and quantities of real world objects have an infinite number of significant figures. For example if you were to count three oranges, a real world object, the value three would be considered to have an infinite
-        number of significant figures in this context.</p>
-    </div>
+    </div><br><br>
+    
+    <h3>Rules for Determining Significant Figures for Numbers WITH Decimal Point</h3>
+    <ol>
+      <li>START counting for sig. figs. On the FIRST non-zero digit.</li>
+      <li>STOP counting for sig. figs. On the VERY LAST digit (regardless whether or not the last digit is a zero or non-zero number).</li>
+      <li>Non-zero digits are ALWAYS significant.</li>
+      <li>Any zero AFTER the first non-zero digit is STILL significant. The zeroes BEFORE the first non-zero digit are insignificant.</li>
+    </ol>
+    
+    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#example2">Click to see an example</button>
+    <div id="example2" class="collapse">
+      <p>The first two zeroes in 0.058000 (five significant digits) are insignificant because they are before the first non-zero digit, and the last three zeroes are significant because they are after the first non-zero digit.</p>
+    </div><br><br>
+    
+    <h3>Rounding Significant Digits</h3>
+    <p>When rounding numbers to a significant digit, keep the amount of significant digits wished to be kept, and replace the other numbers with insignificant zeroes. The reason for rounding a number to a particular amount of significant digits is because in a calculation, some values have less significant digits than other values, and the answer to a calculation is only accurate to the amount of significant digits of the value with the least amount. NOTE: be careful when rounding numbers with a decimal point. Any zeroes added after the first non-zero digit is considered to be a significant zero. TIP: When doing calculations for quizzes/tests/midterms/finals, it would be best to not round in the middle of your calculations, and round to the significant digit only at the end of your calculations. </p>
+        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#example3">Click to see an example</button>
+    <div id="example3" class="collapse">
+      <p>Round 32445.34 to 2 significant digits.<br><strong>Answer</strong><br>32000 (NOT 32000.00, which has 7 significant digits. Due to the decimal point, the zeroes after the first non-zero digit become significant).</p>
+    </div><br><br>
+    
+    <h3>Significant Digit Rules for Addition and Subtraction</h3>
+    <p>When adding or subtracting numbers, the end result should have the same amount of decimal places as the number with the least amount of decimal places.</p>
+    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#example4">Click to see an example</button>
+    <div id="example4" class="collapse">
+      <p>Y = 232.234 + 0.27 Find Y.<br><strong>Answer</strong><br>Y = 232.50<br>NOTE: 232.234 has 3 decimal places and 0.27 has 2 decimal places. The least amount of decimal places is 2. Thus, the answer must be rounded to the 2nd decimal place (thousandth).</p>
+     </div><br><br>
+     
+     
+     <h3>Significant Digit Rules for Multiplication and Division</h3>
+    <p>When multiplying or dividing numbers, the end result should have the same amount of significant digits as the number with the least amount of significant digits.</p>
+    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#example5">Click to see an example</button>
+    <div id="example5" class="collapse">
+      <p>Y = 28 x 47.3 Find Y.<br><strong>Answer</strong><br>Y = 1300<br>NOTE: 28 has 2 significant digits and 47.3 has 3 significant digits. The least amount of significant digits is 2. Thus, the answer must me rounded to 2 significant digits (which is done by keeping 2 significant digits and replacing the rest of the digits with insignificant zeroes).</p>
+     </div><br><br>
+    
+    
+    <p>Source: https://chem.libretexts.org/Core/Analytical_Chemistry/Quantifying_Nature/Significant_Digits</p>
   </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   <!--</div>-->
- <div id="gallery">
-    <h1>Gallery</h1>
-    <br><br>
+  <div id="poly-ion">
+    <h1>Polyatomic Ions</h1>
+    <p>A polyatomic ion is an ion composed of more than one atom. The ammonium ion consists of one nitrogen atom and four hydrogen atoms. Together, they comprise a single ion with a 1+ charge and a formula of  NH4+. The carbonate ion consists of one carbon atom and three oxygen atoms and carries an overall charge of 2−. The formula of the carbonate ion is (CO2)3−. The atoms of a polyatomic ion are tightly bonded together and so the entire ion behaves as a single unit.</p>
+    <p>The vast majority of polyatomic ions are anions, many of which end in -ate or -ite. In some cases such as nitrate (NO3−) and nitrite (NO2−), there are multiple anions that consist of the same two elements. In these cases, the difference between the ions is in the number of oxygen atoms present, while the overall charge is the same. As a class, these are called oxoanions. When there are two oxoanions for a particular element, the one with the greater number of oxygen atoms gets the -ate suffix, while the one with the fewer number of oxygen atoms gets the -ite suffix. The four oxoanions of chlorine are shown below.</p>
+    <ul>
+      <li>ClO−, hypochlorite</li>
+      <li>ClO−2ClO2− , chlorite</li>
+      <li>ClO−3ClO3− , chlorate</li>
+      <li>ClO−4ClO4− , perchlorate</li>
+    </ul>
+    <p>In cases such as this, the ion with one more oxygen atom than the -ate anion is given a per- prefix. The ion with one fewer oxygen atom than the -ite anion is given a hypo- prefix.</p>
+   
+    
+    <h3>Common Polyatomic Ions</h3><br>
     <ul id="hexGrid">
       <li class="hex">
         <div class="hexIn">
@@ -309,10 +336,18 @@
         </div>
       </li>
     </ul>
+    <p>Source: https://chem.libretexts.org/Textbook_Maps/Introductory_Chemistry_Textbook_Maps/Map%3A_Introductory_Chemistry_(CK-12)/07%3A_Chemical_Nomenclature/7.09%3A_Polyatomic_Ions</p>
   </div>
 
 
-<div class="container">
+<div id="chem-bond">
+  <h1>Chemical Bonds, Lewis Symbols, and the Octet Rule</h1>
+  Wei you do this one here's the link: https://chem.libretexts.org/Textbook_Maps/General_Chemistry_Textbook_Maps/Map%3A_Chemistry%3A_The_Central_Science_(Brown_et_al.)/08._Basic_Concepts_of_Chemical_Bonding/8.1%3A_Chemical_Bonds%2C_Lewis_Symbols%2C_and_the_Octet_Rule
+</div><br>
+
+<div id="project">
+<h1>Projects</h1>
+  <div class="container">
     <div class="card-columns">
       <div class="card">
         <img class="card-img-top img-fluid" src="//placehold.it/800x560" alt="Card image cap">
@@ -374,6 +409,10 @@
       </div>
     </div>
   </div>
+</div>
+
+
+
 
   <div id="about">
     <p>ntroduce of the website blahblahlblah</p>
@@ -419,11 +458,11 @@
 
 
 
- 
+
 
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-  
+
 
   <div id="footer">
     <p><strong>Copyright © 2016 | SHABR</strong></p>
@@ -431,11 +470,7 @@
 
 
 
-<!--all the below cannot be use unless rewrite-->
-    <!--Bootstrap core JavaScript -->
-    <!--needed for scrollspy-->
-    <script src="startbootstrap-creative-master/vendor/jquery/jquery.min.js"></script>
-    <!--<script src="startbootstrap-creative-master/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>--> <!--this makes dropdown collapse when a item in it is clicked but then the button for the dropdown or collapse wont work-->
+
 
 
   <!--all the below cannot be use unless rewrite-->
@@ -443,14 +478,28 @@
   <!--needed for scrollspy-->
   <script src="startbootstrap-creative-master/vendor/jquery/jquery.min.js"></script>
   <!--<script src="startbootstrap-creative-master/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>-->
+  
+
+
+  <!--all the below cannot be use unless rewrite-->
+  <!--Bootstrap core JavaScript -->
+  <!--needed for scrollspy-->
+  <script src="jquery.min.js"></script>
+  
+  <!--this makes dropdown collapse when a item in it is clicked but then the button for the dropdown or collapse wont work-->
+  <!--<script src="startbootstrap-creative-master/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>-->
 
   <!--Plugin JavaScript -->
-  <script src="startbootstrap-creative-master/vendor/jquery-easing/jquery.easing.min.js"></script>
-  <script src="startbootstrap-creative-master/vendor/scrollreveal/scrollreveal.min.js"></script>
-  <script src="startbootstrap-creative-master/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <script src="jquery.easing.min.js"></script>
+  <script src="scrollreveal.min.js"></script>
+  <script src="jquery.magnific-popup.min.js"></script>
 
   <!--Custom scripts for this template -->
-  <script src="startbootstrap-creative-master/js/creative.min.js"></script>
+  <script src="creative.min.js"></script>
+
+
+
+
 
 
 </body>
