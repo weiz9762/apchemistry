@@ -115,7 +115,9 @@ body {
     display: inline-block;
 }
 
-
+.dropdown-menu {
+    text-align: center;
+}
 
 
 
@@ -318,5 +320,4 @@ body {
         font-size: 13px;
     }
 }
-
 
