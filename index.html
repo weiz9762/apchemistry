@@ -123,54 +123,54 @@
 
 
 
-  <div id="sig-fig">
-    <h1>Significant Figure</h1>
-    <h3>General Rules for Determining Significant Figures</h3>
-    <ol>
-      <li>All nonzero digits are significant.</li>
-      <li>Zeros are also significant with two exceptions:</li>
-      <ul>
-        <li>zeros preceding the decimal point.</li>
-        <li>zeros following the decimal point and preceding the first nonzero digit.
-        </li>
-      </ul>
-      <li>Terminal zeros preceding the decimal point in amounts greater than one is an ambiguous case.</li>
-    </ol>
-    <h3>Rules for Determining Significant Figures for Numbers Without Decimal Point</h3>
-    <ol>
-      <li>START counting for sig. figs. On the FIRST non-zero digit.</li>
-      <li>STOP counting for sig. figs. On the LAST non-zero digit.</li>
-      <li>Non-zero digits are ALWAYS significant</li>
-      <li>Zeroes in between two non-zero digits are significant. All other zeroes are insignificant.</li>
-    </ol>
+  <!--<div id="sig-fig">-->
+  <!--  <h1>Significant Figure</h1>-->
+  <!--  <h3>General Rules for Determining Significant Figures</h3>-->
+  <!--  <ol>-->
+  <!--    <li>All nonzero digits are significant.</li>-->
+  <!--    <li>Zeros are also significant with two exceptions:</li>-->
+  <!--    <ul>-->
+  <!--      <li>zeros preceding the decimal point.</li>-->
+  <!--      <li>zeros following the decimal point and preceding the first nonzero digit.-->
+  <!--      </li>-->
+  <!--    </ul>-->
+  <!--    <li>Terminal zeros preceding the decimal point in amounts greater than one is an ambiguous case.</li>-->
+  <!--  </ol>-->
+  <!--  <h3>Rules for Determining Significant Figures for Numbers Without Decimal Point</h3>-->
+  <!--  <ol>-->
+  <!--    <li>START counting for sig. figs. On the FIRST non-zero digit.</li>-->
+  <!--    <li>STOP counting for sig. figs. On the LAST non-zero digit.</li>-->
+  <!--    <li>Non-zero digits are ALWAYS significant</li>-->
+  <!--    <li>Zeroes in between two non-zero digits are significant. All other zeroes are insignificant.</li>-->
+  <!--  </ol>-->
 
     <!--<div class="container">-->
-    <h2>Basic Modal Example</h2>
+  <!--  <h2>Basic Modal Example</h2>-->
     <!-- Trigger the modal with a button -->
-    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Example 1</button>
+  <!--  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Example 1</button>-->
 
     <!-- Modal -->
-    <div class="modal fade" id="myModal" role="dialog">
-      <div class="modal-dialog">
+  <!--  <div class="modal fade" id="myModal" role="dialog">-->
+  <!--    <div class="modal-dialog">-->
 
         <!-- Modal content-->
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h4 class="modal-title">Example 1</h4>
-          </div>
-          <div class="modal-body">
-            <p>The first two zeroes in 200500 (four significant digits) are significant because they are between two non-zero digits, and the last two zeroes are insignificant because they are after the last non-zero digit.</p>
-            <p>It should be noted that both constants and quantities of real world objects have an infinite number of significant figures. For example if you were to count three oranges, a real world object, the value three would be considered to have an
-              infinite number of significant figures in this context.</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
-        </div>
+  <!--      <div class="modal-content">-->
+  <!--        <div class="modal-header">-->
+  <!--          <button type="button" class="close" data-dismiss="modal">&times;</button>-->
+  <!--          <h4 class="modal-title">Example 1</h4>-->
+  <!--        </div>-->
+  <!--        <div class="modal-body">-->
+  <!--          <p>The first two zeroes in 200500 (four significant digits) are significant because they are between two non-zero digits, and the last two zeroes are insignificant because they are after the last non-zero digit.</p>-->
+  <!--          <p>It should be noted that both constants and quantities of real world objects have an infinite number of significant figures. For example if you were to count three oranges, a real world object, the value three would be considered to have an-->
+  <!--            infinite number of significant figures in this context.</p>-->
+  <!--        </div>-->
+  <!--        <div class="modal-footer">-->
+  <!--          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+  <!--        </div>-->
+  <!--      </div>-->
 
-      </div>
-    </div> This or the one below Wei?
+  <!--    </div>-->
+  <!--  </div> This or the one below Wei?-->
 
 
     <h2>Example 1</h2>
@@ -182,20 +182,26 @@
     </div>
   </div>
   <!--</div>-->
- <div id="gallery">
-    <h1>Gallery</h1>
+
+
+
+
+
+
+  <div id="chempre">
+    <h1>Chemistry Preparation</h1>
     <br><br>
     <ul id="hexGrid">
-      <li class="hex">
+      <li class="hex" id="sig-fig">
         <div class="hexIn">
-          <a class="hexLink" href="#">
-            <img src="https://farm9.staticflickr.com/8461/8048823381_0fbc2d8efb.jpg" alt="" />
-            <h1>This is a title</h1>
-            <p>Some sample text about the article this hexagon leads to</p>
+          <a class="hexLink " href="#" data-toggle="modal" data-target="#sigfig-info">
+            <img src="https://e2f.com/wp-content/uploads/2015/05/Numbers.png" alt="" />
+            <h1>Significant Digits</h1>
+            <p>Description</p>
           </a>
         </div>
       </li>
-      <li class="hex">
+      <li class="hex" id="poly-ion">
         <div class="hexIn">
           <a class="hexLink" href="#">
             <img src="https://farm5.staticflickr.com/4144/5053682635_b348b24698.jpg" alt="" />
@@ -204,7 +210,7 @@
           </a>
         </div>
       </li>
-      <li class="hex">
+      <li class="hex" id="">
         <div class="hexIn">
           <a class="hexLink" href="#">
             <img src="https://farm3.staticflickr.com/2827/10384422264_d9c7299146.jpg" alt="" />
@@ -224,19 +230,59 @@
       </li>
       <li class="hex">
         <div class="hexIn">
-          <a class="hexLink" href="#">
+          <a class="hexLink " href="#" data-toggle="modal" data-target="#sigfit-info">
             <img src="https://farm7.staticflickr.com/6083/6055581292_d94c2d90e3.jpg" alt="" />
             <h1>This is a title</h1>
             <p>Some sample text about the article this hexagon leads to</p> 
+            
           </a>
 
         </div>
       </li>
     </ul>
+
+
+
+    <div class="modal fade" id="sigfig-info" tabindex="-1" role="dialog" aria-labelledby="sigfig-info" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Significant Digits</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="poly-ion" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
 
-<div class="container">
+  <div class="container">
     <div class="card-columns">
       <div class="card">
         <img class="card-img-top img-fluid" src="//placehold.it/800x560" alt="Card image cap">
@@ -343,11 +389,71 @@
 
 
 
- 
+
 
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+          <!-- Carousel Slides / Quotes -->
+          <div class="carousel-inner text-center">
+            <!-- Quote 1 -->
+            <div class="item active">
+              <blockquote>
+                <div class="row">
+                  <div class="col-sm-8 col-sm-offset-2">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. !</p>
+                    <small>Someone famous</small>
+                  </div>
+                </div>
+              </blockquote>
+            </div>
+            <!-- Quote 2 -->
+            <div class="item">
+              <blockquote>
+                <div class="row">
+                  <div class="col-sm-8 col-sm-offset-2">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                    <small>Someone famous</small>
+                  </div>
+                </div>
+              </blockquote>
+            </div>
+            <!-- Quote 3 -->
+            <div class="item">
+              <blockquote>
+                <div class="row">
+                  <div class="col-sm-8 col-sm-offset-2">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. .</p>
+                    <small>Someone famous</small>
+                  </div>
+                </div>
+              </blockquote>
+            </div>
+          </div>
+          <!-- Bottom Carousel Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="https://s3.amazonaws.com/uifaces/faces/twitter/mantia/128.jpg" alt="">
+            </li>
+            <li data-target="#quote-carousel" data-slide-to="1"><img class="img-responsive" src="https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg" alt="">
+            </li>
+            <li data-target="#quote-carousel" data-slide-to="2"><img class="img-responsive" src="https://s3.amazonaws.com/uifaces/faces/twitter/brad_frost/128.jpg" alt="">
+            </li>
+          </ol>
 
-  
+          <!-- Carousel Buttons Next/Prev -->
+          <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+          <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+        </div>
+      </div>
+    </div>
+    <a class="btn btn-primary" href="http://thecodeblock.com/create-a-quote-testimonial-slider-using-bootstrap-carousel"><i class="fa fa-arrow-left"></i> Back to Article</a>
+  </div>
+
 
   <div id="footer">
     <p><strong>Copyright © 2016 | SHABR</strong></p>
