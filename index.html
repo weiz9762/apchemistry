@@ -69,17 +69,17 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Blah</a>
           </li>
-          
-        <!--Search Bar (commented because it might be deleted)-->
-        <li class="nav-item nav-link">
-        <form class="form-inline my-2 my-lg-0" id="search-bar">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
-      </li>
-      
-      
-      </ul>
+
+          <!--Search Bar (commented because it might be deleted)-->
+          <li class="nav-item nav-link">
+            <form class="form-inline my-2 my-lg-0" id="search-bar">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </li>
+
+
+        </ul>
       </div>
     </div>
   </nav>
@@ -101,21 +101,21 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <!-- Slide One - Set the background image for this slide in the line below -->
-        <div class="carousel-item active" style="background-image: url('http://placehold.it/1900x1080')">
+        <div class="carousel-item active" style="background-image: url('pic1.jpg')">
           <div class="carousel-caption d-none d-md-block">
             <h3>First Slide</h3>
             <p>This is a description for the first slide.</p>
           </div>
         </div>
         <!-- Slide Two - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+        <div class="carousel-item" style="background-image: url('pic5.jpg')">
           <div class="carousel-caption d-none d-md-block">
             <h3>Second Slide</h3>
             <p>This is a description for the second slide.</p>
           </div>
         </div>
         <!-- Slide Three - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+        <div class="carousel-item" style="background-image: url('pic4.jpg')">
           <div class="carousel-caption d-none d-md-block">
             <h3>Third Slide</h3>
             <p>This is a description for the third slide.</p>
@@ -133,10 +133,7 @@
     </div>
   </header>
   <br>
-  
-  
-  
-  
+
 
 <!--<div id="sig-fig">-->
 <!--  <h1>Significant Figure</h1>-->
@@ -198,42 +195,70 @@
 <!--          <p>It should be noted that both constants and quantities of real world objects have an infinite number of significant figures. For example if you were to count three oranges, a real world object, the value three would be considered to have an infinite number of significant figures in this context.</p>-->
 <!--  </div>-->
 <!--  </div>-->
-<!--</div>-->
 
 
 
-  
-  <div id="about">
-    <p>ntroduce of the website blahblahlblah</p>
-    <div class="row">
-  <div class="col-sm-6">
-    <div class="card" id="card1">
-      <img class="card-img-top" src="" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+
+  <div id="sig-fig">
+    <h1>Significant Figure</h1>
+    <h3>General Rules for Determining Significant Figures</h3>
+    <ol>
+      <li>All nonzero digits are significant.</li>
+      <li>Zeros are also significant with two exceptions:</li>
+      <ul>
+        <li>zeros preceding the decimal point.</li>
+        <li>zeros following the decimal point and preceding the first nonzero digit.
+        </li>
+      </ul>
+      <li>Terminal zeros preceding the decimal point in amounts greater than one is an ambiguous case.</li>
+    </ol>
+    <h3>Rules for Determining Significant Figures for Numbers Without Decimal Point</h3>
+    <ol>
+      <li>START counting for sig. figs. On the FIRST non-zero digit.</li>
+      <li>STOP counting for sig. figs. On the LAST non-zero digit.</li>
+      <li>Non-zero digits are ALWAYS significant</li>
+      <li>Zeroes in between two non-zero digits are significant. All other zeroes are insignificant.</li>
+    </ol>
+
+    <!--<div class="container">-->
+    <h2>Basic Modal Example</h2>
+    <!-- Trigger the modal with a button -->
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Example 1</button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Example 1</h4>
+          </div>
+          <div class="modal-body">
+            <p>The first two zeroes in 200500 (four significant digits) are significant because they are between two non-zero digits, and the last two zeroes are insignificant because they are after the last non-zero digit.</p>
+            <p>It should be noted that both constants and quantities of real world objects have an infinite number of significant figures. For example if you were to count three oranges, a real world object, the value three would be considered to have an
+              infinite number of significant figures in this context.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
       </div>
+    </div> This or the one below Wei?
+
+
+    <h2>Example 1</h2>
+    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Simple collapsible</button>
+    <div id="demo" class="collapse">
+      <p>The first two zeroes in 200500 (four significant digits) are significant because they are between two non-zero digits, and the last two zeroes are insignificant because they are after the last non-zero digit.</p>
+      <p>It should be noted that both constants and quantities of real world objects have an infinite number of significant figures. For example if you were to count three oranges, a real world object, the value three would be considered to have an infinite
+        number of significant figures in this context.</p>
     </div>
   </div>
-  <div class="col-sm-6">
-    <div class="card" id="card2">
-      <img class="card-img-top" src="" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-  </div>
-</div>
-  </div>
-
-
-
-
-
-  <div id = "gallery">
+  <!--</div>-->
+ <div id="gallery">
     <h1>Gallery</h1>
     <br><br>
     <ul id="hexGrid">
@@ -287,15 +312,124 @@
   </div>
 
 
+<div class="container">
+    <div class="card-columns">
+      <div class="card">
+        <img class="card-img-top img-fluid" src="//placehold.it/800x560" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title">Card title that wraps to a new line</h4>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+      <div class="card card-body">
+        <blockquote class="card-blockquote">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+          <footer>
+            <small class="text-muted">
+          Someone famous in <cite title="Source Title">Source Title</cite>
+        </small>
+          </footer>
+        </blockquote>
+      </div>
+      <div class="card">
+        <img class="card-img-top img-fluid" src="//placehold.it/800x400" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title">Card title</h4>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card card-body card-inverse card-primary text-xs-center">
+        <blockquote class="card-blockquote">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+          <footer>
+            <small>
+          Someone famous in <cite title="Source Title">Source Title</cite>
+        </small>
+          </footer>
+        </blockquote>
+      </div>
+      <div class="card card-body text-xs-center">
+        <h4 class="card-title">Card title</h4>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+      <div class="card">
+        <img class="card-img img-fluid" src="//placehold.it/800x600" alt="Card image">
+      </div>
+      <div class="card card-body text-right">
+        <blockquote class="card-blockquote">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+          <footer>
+            <small class="text-muted">
+                      Someone famous in <cite title="Source Title">Source Title</cite>
+                    </small>
+          </footer>
+        </blockquote>
+      </div>
+      <div class="card card-body">
+        <h4 class="card-title">Card title</h4>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+
+  <div id="about">
+    <p>ntroduce of the website blahblahlblah</p>
+    <div class="row">
+      <div class="col-sm-6 col-md-4">
+        <div class="card" id="card1">
+          <img class="card-img-top" src="mttesting.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Mrs. Torres</h5>
+            <p class="card-text">Chase for the knowledge, and point will come after</p>
+            <button type="button" class="btn btn-primary btn-md">
+  <span class="glyphicon glyphicon-star" aria-hidden="true"></span> Email
+</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="card" id="card2">
+          <img class="card-img-top" src="mttesting.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4">
+        <div class="card" id="card1">
+          <img class="card-img-top" src="mttesting.png" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Mrs. Torres</h5>
+            <p class="card-text">Chase for the knowledge, and point will come after</p>
+            <button type="button" class="btn btn-primary btn-md">
+  <span class="glyphicon glyphicon-star" aria-hidden="true"></span> Email
+</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+ 
+
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-
+  
 
   <div id="footer">
     <p><strong>Copyright © 2016 | SHABR</strong></p>
   </div>
 
- 
+
 
 <!--all the below cannot be use unless rewrite-->
     <!--Bootstrap core JavaScript -->
@@ -303,13 +437,20 @@
     <script src="startbootstrap-creative-master/vendor/jquery/jquery.min.js"></script>
     <!--<script src="startbootstrap-creative-master/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>--> <!--this makes dropdown collapse when a item in it is clicked but then the button for the dropdown or collapse wont work-->
 
-    <!--Plugin JavaScript -->
-    <script src="startbootstrap-creative-master/vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="startbootstrap-creative-master/vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="startbootstrap-creative-master/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
-    <!--Custom scripts for this template -->
-    <script src="startbootstrap-creative-master/js/creative.min.js"></script>
+  <!--all the below cannot be use unless rewrite-->
+  <!--Bootstrap core JavaScript -->
+  <!--needed for scrollspy-->
+  <script src="startbootstrap-creative-master/vendor/jquery/jquery.min.js"></script>
+  <!--<script src="startbootstrap-creative-master/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>-->
+
+  <!--Plugin JavaScript -->
+  <script src="startbootstrap-creative-master/vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="startbootstrap-creative-master/vendor/scrollreveal/scrollreveal.min.js"></script>
+  <script src="startbootstrap-creative-master/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+  <!--Custom scripts for this template -->
+  <script src="startbootstrap-creative-master/js/creative.min.js"></script>
 
 
 </body>
