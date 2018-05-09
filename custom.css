@@ -50,10 +50,10 @@ body {
 }
 
 #info {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('pic1.jpg') no-repeat center fixed;
+    background:url('https://cdn.pixabay.com/photo/2018/04/17/11/43/color-3327344_960_720.jpg') no-repeat center fixed;
     background-size: cover;
-    height:20%;
-   
+    height: 20%;
+
 }
 
 @media(min-width: 768px) {
@@ -103,6 +103,16 @@ body {
 
 
 /*navbar*/
+
+.nav-font {
+    font-family: 'Abril Fatface', cursive;
+    text-transform: uppercase;
+
+}
+
+.navbar-brand {
+    float: right;
+}
 
 .topnav {
     /*background-color: #333;*/
@@ -160,9 +170,65 @@ body {
 
 }
 
-.card-columns .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 15px
+/*.card-columns .card {*/
+
+/*    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+
+/*    border-radius: 15px*/
+
+/*}*/
+
+.number {
+    border-bottom: 1px solid #c0091f;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size:3vw;
+    text-align:center;
+    margin:5px auto;
+    display:table;
+}
+.sf1 {
+    background: linear-gradient( rgba(211, 211, 211,0.65),
+    rgba(211, 211, 211, 0.65)),
+    url('https://cdn.pixabay.com/photo/2016/05/31/11/22/one-1426636_960_720.png');
+      background-size: contain;
+   background-repeat: no-repeat
+}
+
+.sf2 {
+    background: linear-gradient( rgba(211, 211, 211,0.65),
+    rgba(211, 211, 211, 0.65)),
+    url('https://cdn.pixabay.com/photo/2016/05/31/11/22/two-1426640_960_720.png');
+      background-size: contain;
+   background-repeat: no-repeat
+}
+.sf3 {
+    background: linear-gradient( rgba(211, 211, 211,0.65),
+    rgba(211, 211, 211, 0.65)),
+    url('https://cdn.pixabay.com/photo/2016/05/31/11/22/three-1426639_960_720.png');
+      background-size: contain;
+   background-repeat: no-repeat
+}
+.sf4 {
+    background: linear-gradient( rgba(211, 211, 211,0.65),
+    rgba(211, 211, 211, 0.65)),
+    url('https://cdn.pixabay.com/photo/2016/05/31/11/22/four-1426634_960_720.png');
+      background-size: contain;
+   background-repeat: no-repeat
+}
+.sf5 {
+    background: linear-gradient( rgba(211, 211, 211,0.65),
+    rgba(211, 211, 211, 0.65)),
+    url('https://cdn.pixabay.com/photo/2016/05/31/11/22/five-1426633_960_720.png');
+      background-size: contain;
+   background-repeat: no-repeat
+}
+.sf6 {
+    background: linear-gradient( rgba(211, 211, 211,0.65),
+    rgba(211, 211, 211, 0.65)),
+    url('https://cdn.pixabay.com/photo/2016/05/31/11/22/six-1426638_960_720.png');
+      background-size: contain;
+   background-repeat: no-repeat
 }
 
 
@@ -171,6 +237,11 @@ body {
 
 #gallery {}
 
+
+
+#footer {
+    text-align: center;
+}
 
 /*hexagon*/
 
@@ -329,7 +400,6 @@ body {
     }
 }
 
-<<<<<<< HEAD
 @media (max-width: 900px) and (min-width:601px) {
     /* <- 3-2  hexagons per row */
     #hexGrid {
@@ -348,7 +418,9 @@ body {
 
 
 /*#nav-left {*/
+
 /*    vertical-align: right;*/
+
 /*}*/
 
 @media (max-width: 600px) {
