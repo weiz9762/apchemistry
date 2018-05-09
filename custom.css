@@ -873,21 +873,13 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
 
 .dots span:nth-child(3) {
     transition-delay: 0.15s;
->>>>>>> 429c2458906940f8461cfbb3fdc07cf3089c42ee
 }
 
 
 @media (max-width: 1000px) {
-<<<<<<< HEAD
-  .wrap {
-   flex-direction: column;
-    width:400px;
-  }
-}
-=======
+
     .wrap {
         flex-direction: column;
         width: 400px;
     }
 }
->>>>>>> 429c2458906940f8461cfbb3fdc07cf3089c42ee
