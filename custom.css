@@ -338,10 +338,11 @@ body {
 
 .hex h1,
 .hex p {
+    color:white;
     width: 100%;
     padding: 5%;
     box-sizing: border-box;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     font-weight: 300;
     -webkit-transition: -webkit-transform .2s ease-out, opacity .3s ease-out;
     transition: transform .2s ease-out, opacity .3s ease-out;
@@ -562,8 +563,7 @@ body {
     }
 }
 
-<<<<<<< HEAD
-=======
+
 
 .wrap {
     margin: 50px auto 0 auto;
@@ -702,4 +702,3 @@ body {
         width: 400px;
     }
 }
->>>>>>> 2035992efd287a3648112d22f637fe28d41da0d4
