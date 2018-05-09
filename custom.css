@@ -50,7 +50,7 @@ body {
 }
 
 #info {
-    background:url('chemical2.jpg') no-repeat center fixed;
+    background:url('imgs/chemical2.jpg') no-repeat center fixed;
     background-size: cover;
     height: 20%;
 
@@ -189,7 +189,7 @@ body {
 .sf1 {
     background: linear-gradient( rgba(211, 211, 211,0.65),
     rgba(211, 211, 211, 0.65)),
-    url('one.png');
+    url('imgs/one.png');
       background-size: contain;
    background-repeat: no-repeat
 }
