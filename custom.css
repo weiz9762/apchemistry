@@ -5,7 +5,13 @@ body {
     width: 100%;
     height: 100%;
 }
-
+/*body {*/
+/*    background: linear-gradient( rgba(78, 84, 200, 0.5),*/
+/*    rgba(78, 84, 200, 0.5)),*/
+/*    url('') no-repeat center fixed;*/
+/*    background-size: cover;*/
+/*    z-index: -5;*/
+/*}*/
 
 
 .text-vertical-center {
@@ -53,15 +59,15 @@ body {
 
 
 
-#sf-bg {
-    display: table;
-    background: url('imgs/chemical2.jpg') no-repeat center fixed;
-    background-size: cover;
-    height: 10vw;
+/*#sf-bg {*/
+/*    display: table;*/
+/*    background: url('imgs/chemical2.jpg') no-repeat center fixed;*/
+/*    background-size: cover;*/
+/*    height: 10vw;*/
 
-}
+/*}*/
 
-#info {
+.bg {
     display: table;
     background: linear-gradient( rgba(211, 211, 211, 0.4),
     rgba(211, 211, 211, 0.4)),
@@ -71,7 +77,7 @@ body {
     font-family: 'Abril Fatface', cursive;
     width: 80%;
     margin-top: 5%;
-     border-radius: 25px;
+    border-radius: 25px;
 
 }
 
@@ -165,27 +171,18 @@ body {
 
 
 
-#about {
+/*#about {*/
+/*    display: table;*/
+/*    width: 100%;*/
+/*    min-height: 100%;*/
+/*    height: 100%;*/
+/*    background: linear-gradient( rgba(78, 84, 200, 0.5),*/
+/*    rgba(143, 148, 251, 0.5)),*/
+/*    url('') no-repeat center fixed;*/
+/*    background-size: cover;*/
+/*    text-align: center;*/
 
-    display: table;
-
-    width: 100%;
-
-    min-height: 100%;
-
-    height: 100%;
-
-    background: linear-gradient( rgba(78, 84, 200, 0.5),
-
-    rgba(143, 148, 251, 0.5)),
-
-    url('https://danwoog.files.wordpress.com/2018/02/pic-saugatuck-river-mark-molesworth.jpg') no-repeat center fixed;
-
-    background-size: cover;
-
-    text-align: center;
-
-}
+/*}*/
 
 /*.card-columns .card {*/
 
@@ -199,65 +196,54 @@ body {
     border-bottom: 1px solid #c0091f;
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
-    font-size: 3vw;
+    font-size: 2.5vw;
     text-align: center;
     margin: 5px auto;
     display: table;
 }
 
-.sf1 {
-    background: linear-gradient( rgba(211, 211, 211, 0.65),
-    rgba(211, 211, 211, 0.65)),
-    url('imgs/one.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
+/*.sf1 {*/
+    
+/*    url('imgs/one.png');*/
+/*    background-size: contain;*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: center;*/
+/*}*/
 
-.sf2 {
-    background: linear-gradient( rgba(211, 211, 211, 0.65),
-    rgba(211, 211, 211, 0.65)),
-    url('imgs/two.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
+/*.sf2 {*/
+/*    url('imgs/two.png');*/
+/*    background-size: contain;*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: center;*/
+/*}*/
 
-.sf3 {
-    background: linear-gradient( rgba(211, 211, 211, 0.65),
-    rgba(211, 211, 211, 0.65)),
-    url('imgs/three.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
+/*.sf3 {*/
+/*    url('imgs/three.png');*/
+/*    background-size: contain;*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: center;*/
+/*}*/
 
-.sf4 {
-    background: linear-gradient( rgba(211, 211, 211, 0.65),
-    rgba(211, 211, 211, 0.65)),
-    url('imgs/four.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
+/*.sf4 {*/
+/*    url('imgs/four.png');*/
+/*    background-size: contain;*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: center;*/
+/*}*/
 
-.sf5 {
-    background: linear-gradient( rgba(211, 211, 211, 0.65),
-    rgba(211, 211, 211, 0.65)),
-    url('imgs/five.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
+/*.sf5 {*/
+/*    url('imgs/five.png');*/
+/*    background-size: contain;*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: center;*/
+/*}*/
 
-.sf6 {
-    background: linear-gradient( rgba(211, 211, 211, 0.65),
-    rgba(211, 211, 211, 0.65)),
-    url('imgs/six.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
+/*.sf6 {*/
+/*    background: url('imgs/six.png'); opacity: 0.5;*/
+/*    background-size: contain;*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: center;*/
+/*}*/
 
 
 
@@ -476,281 +462,89 @@ body {
 
 
 
-.tile {
-    width: 380px;
-    height: 380px;
-    margin: 10px;
-    background-color: #99aeff;
-    display: inline-block;
-    background-size: cover;
-    position: relative;
-    cursor: pointer;
-    transition: all 0.4s ease-out;
-    box-shadow: 0px 35px 77px -17px rgba(0, 0, 0, 0.44);
-    overflow: hidden;
-    color: white;
-    font-family: 'Roboto';
 
-}
-
-.tile img {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 0;
-    transition: all 0.4s ease-out;
-}
-
-.tile .text {
-    z-index: 99;
-    position: absolute;
-    padding: 30px;
-    height: calc(100% - 60px);
-}
-
-.tile h1 {
-
-    font-weight: 300;
-    margin: 0;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-}
-
-.tile h2 {
-    font-weight: 100;
-    margin: 20px 0 0 0;
-    font-style: italic;
-    transform: translateX(200px);
-}
-
-.tile p {
-    font-weight: 300;
-    margin: 20px 0 0 0;
-    line-height: 25px;
-    opacity: 0;
-    transform: translateX(-200px);
-    transition-delay: 0.2s;
-}
-
-.animate-text {
-    opacity: 0;
-    transition: all 0.6s ease-in-out;
-}
-
-.tile:hover {
-    background-color: #99aeff;
-    box-shadow: 0px 35px 77px -17px rgba(0, 0, 0, 0.64);
-    transform: scale(1.05);
-}
-
-.tile:hover img {
-    opacity: 0.2;
-}
-
-.tile:hover .animate-text {
-    transform: translateX(0);
-    opacity: 1;
-}
-
-
-
-.tile:hover span {
-    opacity: 1;
-    transform: translateY(0px);
-}
-
-
-
-@media (max-width: 1000px) {
-    .wrap {
-        flex-direction: column;
-        width: 400px;
-    }
-}
-
-<<<<<<< HEAD=======.wrap {
-    margin: 50px auto 0 auto;
-    width: 100%;
-    display: flex;
-    align-items: space-around;
-    max-width: 1200px;
-}
-
-.tile {
-    width: 380px;
-    height: 380px;
-    margin: 10px;
-    background-color: #99aeff;
-    display: inline-block;
-    background-size: cover;
-    position: relative;
-    cursor: pointer;
-    transition: all 0.4s ease-out;
-    box-shadow: 0px 35px 77px -17px rgba(0, 0, 0, 0.44);
-    overflow: hidden;
-    color: white;
-    font-family: 'Roboto';
-
-}
-
-.tile img {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 0;
-    transition: all 0.4s ease-out;
-}
-
-.tile .text {
-    z-index: 99;
-    position: absolute;
-    padding: 30px;
-    height: calc(100% - 60px);
-}
-
-.tile h1 {
-
-    font-weight: 300;
-    margin: 0;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-}
-
-.tile h2 {
-    font-weight: 100;
-    margin: 20px 0 0 0;
-    font-style: italic;
-    transform: translateX(200px);
-}
-
-.tile p {
-    font-weight: 300;
-    margin: 20px 0 0 0;
-    line-height: 25px;
-    opacity: 0;
-    transform: translateX(-200px);
-    transition-delay: 0.2s;
-}
-
-.animate-text {
-    opacity: 0;
-    transition: all 0.6s ease-in-out;
-    font-size:3vw;
-    line-height: 1.7em;
-}
-
-.tile:hover {
-    background-color: #99aeff;
-    box-shadow: 0px 35px 77px -17px rgba(0, 0, 0, 0.64);
-    transform: scale(1.05);
-}
-
-.tile:hover img {
-    opacity: 0.2;
-}
-
-.tile:hover .animate-text {
-    transform: translateX(0);
-    opacity: 1;
-}
-
-
-
-
-.tile:hover span {
-    opacity: 1;
-    transform: translateY(0px);
-}
-
-@media (max-width: 1000px) {
-
-    .wrap {
-        flex-direction: column;
-        width: 400px;
-    }
-}
 
 .hovereffect {
-  height: 100%;
-  width:100%;
-  float: left;
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-  cursor: default;
+    height: 100%;
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
 }
 
 .hovereffect .overlay {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  overflow: hidden;
-  top: 0;
-  left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
 }
 
 .hovereffect img {
-  position: relative;
-  background-size: contain;
-  -webkit-transition: all 0.4s ease-in;
-  transition: all 0.4s ease-in;
-  height: 100%;
-  width:100%;
+    position: relative;
+    background-size: contain;
+    -webkit-transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in;
+    height: 100%;
+    width: 100%;
 }
 
 .hovereffect:hover img {
-  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0 0 0 1 0" /><feGaussianBlur stdDeviation="3" /></filter></svg>#filter');
-  filter: grayscale(1) blur(3px);
-  -webkit-filter: grayscale(1) blur(3px);
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
+    filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0 0 0 1 0" /><feGaussianBlur stdDeviation="3" /></filter></svg>#filter');
+    filter: grayscale(1) blur(3px);
+    -webkit-filter: grayscale(1) blur(3px);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .hovereffect h2 {
-  text-transform: uppercase;
-  text-align: center;
-  position: relative;
-  font-size: 17px;
-  padding: 10px;
-  background: rgba(0, 0, 0, 0.6);
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.6);
 }
 
 .hovereffect a.info {
-  display: inline-block;
-  text-decoration: none;
-  padding: 7px 14px;
-  border: 1px solid #fff;
-  margin: 50px 0 0 0;
-  background-color: transparent;
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    border: 1px solid #fff;
+    margin: 50px 0 0 0;
+    background-color: transparent;
 }
 
 .hovereffect a.info:hover {
-  box-shadow: 0 0 5px #fff;
+    box-shadow: 0 0 5px #fff;
 }
 
-.hovereffect a.info, .hovereffect h2 {
-  -webkit-transform: scale(0.7);
-  -ms-transform: scale(0.7);
-  transform: scale(0.7);
-  -webkit-transition: all 0.4s ease-in;
-  transition: all 0.4s ease-in;
-  opacity: 0;
-  filter: alpha(opacity=0);
-  color: #fff;
-  text-transform: uppercase;
+.hovereffect a.info,
+.hovereffect h2 {
+    -webkit-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    transform: scale(0.7);
+    -webkit-transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    color: #fff;
+    text-transform: uppercase;
 }
 
-.hovereffect:hover a.info, .hovereffect:hover h2 {
-  opacity: 1;
-  filter: alpha(opacity=100);
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
+.hovereffect:hover a.info,
+.hovereffect:hover h2 {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
 }
- 
+
 #poly-ion {
-     padding:5% 10%;
- }
+    padding: 5% 10%;
+}
