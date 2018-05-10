@@ -232,7 +232,7 @@
           <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/3/36/AX3E2-3D-balls.png" alt="">
           <div class="overlay">
             <h2>geometric shape</h2>
-            <a class="info" data-toggle="modal" data-target="#lewis">Read More</a>
+            <a class="info" data-toggle="modal" data-target="#geo">Read More</a>
           </div>
         </div>
       </div>
@@ -273,29 +273,120 @@
       </div>
     </div>
 
-    <div class="modal fade" id="lewis" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
+    <div class="modal fade" id="geo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="lewis">Lewis Symbols</h5>
+            <h5 class="modal-title" id="geo">Lewis Symbols</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
           </div>
           <div class="modal-body">
-            <p>At the beginning of the 20th century, the American chemist G. N. Lewis (1875–1946) devised a system of symbols—now called Lewis electron dot symbols (often shortened to Lewis dot symbols) that can be used for predicting the number of bonds
-              formed by most elements in their compounds. Each Lewis dot symbol consists of the chemical symbol for an element surrounded by dots that represent its valence electrons.</p>
-            <p>To write an element’s Lewis dot symbol, we place dots representing its valence electrons, one at a time, around the element’s chemical symbol. Up to four dots are placed above, below, to the left, and to the right of the symbol (in any order,
-              as long as elements with four or fewer valence electrons have no more than one dot in each position). The next dots, for elements with more than four valence electrons, are again distributed one at a time, each paired with one of the first
-              four. For example, the electron configuration for atomic sulfur is [Ne]3s23p4, thus there are six valence electrons. Its Lewis symbol would therefore be:</p>
-
-            <img src="imgs/s-electron-config.GIF" alt="Element S electron-config" height="50" width="50">
-
-            <p>Fluorine, for example, with the electron configuration [He]2s22p5, has seven valence electrons, so its Lewis dot symbol is constructed as follows:</p>
-
-            <img src="imgs/f-electron-config.jpg" alt="Element F electron-config" height="50" width="100%">
-
-            <p>The number of dots in the Lewis dot symbol is the same as the number of valence electrons, which is the same as the last digit of the element’s group number in the periodic table. </p>
+             <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Bonding</th>
+        <th>Lone</th>
+        <th>Example</th>
+        <th>Bond Angles <sup>o</sup></th>
+        <th>Geometry of Atoms</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2</td>
+        <td>0</td>
+        <td>BeCl<sub>2</sub></td>
+        <td>180</td>
+        <td>Linear</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>0</td>
+        <td>BF<sub>3</sub></td>
+        <td>120</td>
+        <td>Trigonal Planar</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>1</td>
+        <td>SO<sub>2</sub></td>
+        <td>Slightly less than 120</td>
+        <td>Bent or V Shaped</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>0</td>
+        <td>CH<sub>4</sub></td>
+        <td>109.5</td>
+        <td>Tetrahedral</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>1</td>
+        <td>NH<sub>3</sub></td>
+        <td>107.5</td>
+        <td>Trigonal Pyramidal</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>2</td>
+        <td>H<sub>2</sub>O</td>
+        <td>104.5</td>
+        <td>Bent or V Shaped</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>0</td>
+        <td>PCl<sub>5</sub></td>
+        <td>120 in plane. 90 perpendicular to plane</td>
+        <td>Trigonal Bipyramidal</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>1</td>
+        <td>SF<sub>4</sub></td>
+        <td>Complex</td>
+        <td>Seesaw</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>2</td>
+        <td>ClF<sub>3</sub></td>
+        <td>Approx. 90</td>
+        <td>T-Shaped</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>3</td>
+        <td>XeF<sub>2</sub></td>
+        <td>180</td>
+        <td>Linear</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>0</td>
+        <td>SF<sub>6</sub></td>
+        <td>90</td>
+        <td>Octahedral</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>1</td>
+        <td>BrF<sub>5</sub></td>
+        <td>Approx. 90</td>
+        <td>Square Pyramidal</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>2</td>
+        <td>XeF<sub>4</sub></td>
+        <td>90</td>
+        <td>Square Planar</td>
+      </tr>
+    </tbody>
+  </table>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -740,37 +831,7 @@
 
 
 
-    <div class="container">
-      <h2>Basic Table</h2>
-      <p>The .table class adds basic styling (light padding and only horizontal dividers) to a table:</p>
-      <table class="table">
-        <thead>
-          <tr>
-            <th>Firstname</th>
-            <th>Lastname</th>
-            <th>Email</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>John</td>
-            <td>Doe</td>
-            <td>john@example.com</td>
-          </tr>
-          <tr>
-            <td>Mary</td>
-            <td>Moe</td>
-            <td>mary@example.com</td>
-          </tr>
-          <tr>
-            <td>July</td>
-            <td>Dooley</td>
-            <td>july@example.com</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-
+    
 
 
 
