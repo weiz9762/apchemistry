@@ -331,10 +331,11 @@ body {
 
 .hex h1,
 .hex p {
+    color:white;
     width: 100%;
     padding: 5%;
     box-sizing: border-box;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     font-weight: 300;
     -webkit-transition: -webkit-transform .2s ease-out, opacity .3s ease-out;
     transition: transform .2s ease-out, opacity .3s ease-out;
@@ -468,11 +469,24 @@ body {
     height: 100%;
     width: 100%;
     float: left;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    cursor: default;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    transition: all 0.4s ease-out;
 }
+
+
+
+
+@media (max-width: 1000px) {
+    .wrap {
+        flex-direction: column;
+        width: 400px;
+    }
+}
+
+
 
 .hovereffect .overlay {
     width: 100%;
@@ -482,6 +496,24 @@ body {
     top: 0;
     left: 0;
 }
+
+.hovereffect {
+  height: 100%;
+  width:100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;}
 
 .hovereffect img {
     position: relative;
@@ -548,3 +580,4 @@ body {
 #poly-ion {
     padding: 5% 10%;
 }
+
