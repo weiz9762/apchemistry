@@ -32,13 +32,14 @@ body {
 .carousel-item {
     height: 100vh;
     min-height: 300px;
-    background: no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-
+.colorblack {
+    color:black;
+}
 /*.carousel-control-next-icon {*/
 
 /* background-color: #56CCF2;*/
@@ -201,6 +202,9 @@ body {
     margin: 5px auto;
     display: table;
 }
+.quote {
+    font-size:3vw;
+}
 
 /*.sf1 {*/
     
@@ -251,7 +255,9 @@ body {
 
 #gallery {}
 
-
+.p, .ul {
+    font-family: 'Open Sans', sans-serif;
+}
 
 #footer {
     text-align: center;
